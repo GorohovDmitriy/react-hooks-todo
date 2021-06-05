@@ -17,7 +17,7 @@ export const FirebaseState = ({ children }) => {
 	const showLoader = () => dispatch({ type: SHOW_LOADER })
 	const fechNote = async () => {
 		showLoader()
-		const res = await axios.get(`https://react-hook-18cda-default-rtdb.firebaseio.com/notes.json`)
+		const res = await axios.get(`https://react-hooks-4e7e6-default-rtdb.firebaseio.com/notes.json`)
 		const payload = Object.keys(res.data).map(key => {
 			return {
 				...res.data[key],
@@ -37,7 +37,7 @@ export const FirebaseState = ({ children }) => {
 		}
 		try {
 			const res = await axios.post(
-				`https://react-hook-18cda-default-rtdb.firebaseio.com/notes.json`,
+				`https://react-hooks-4e7e6-default-rtdb.firebaseio.com/notes.json`,
 				note,
 			)
 			const payload = {
@@ -54,7 +54,7 @@ export const FirebaseState = ({ children }) => {
 	}
 
 	const removeNote = async (id) => {
-		await axios.delete(`https://react-hook-18cda-default-rtdb.firebaseio.com/notes/${id}.json`)
+		await axios.delete(`https://react-hooks-4e7e6-default-rtdb.firebaseio.com/notes/${id}.json`)
 
 		dispatch({
 			type: REMOVE_NOTE,
