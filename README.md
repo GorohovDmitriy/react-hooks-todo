@@ -6,4 +6,4 @@ In the project directory, you can run:
 
 
 
-### `Stack (useState, useReducer, useContext, CSSTransition, TransitionGroup, NavLink, Route, Switch, BrowserRouter) `
+### `Stack (useState, useReducer, useContext, CSSTransition, TransitionGroup, NavLink, Route, Switch, BrowserRouter)`

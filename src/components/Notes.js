@@ -21,4 +21,4 @@ export const Notes = ({ notes, onRemove }) => (
 			</CSSTransition>
 		))}
 	</TransitionGroup>
-)
+);
