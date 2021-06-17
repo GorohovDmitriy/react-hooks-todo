@@ -6,7 +6,7 @@ import { About } from './pages/About'
 import { Home } from './pages/Home'
 import { AlertState } from './context/alert/AlertState'
 import { FirebaseState } from './context/firebase/FirebaseState'
-
+  
 function App() {
 	return (
 		<FirebaseState>
