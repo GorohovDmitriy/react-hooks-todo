@@ -1,11 +1,27 @@
+## Список задач на Хуках
 
+**Deploy :**
 
-In the project directory, you can run:
+- [Хостинг проекта](https://react-hooks-4e7e6.web.app/) :white_check_mark:
 
-### `npm start`
+---
 
-Demo (Demo)[https://react-hooks-4e7e6.web.app/]
+![screen1](screen1.png)
 
+---
 
+![screen2](screen2.png)
 
-### `Stack (useState, useReducer, useContext, CSSTransition, TransitionGroup, NavLink, Route, Switch, BrowserRouter)`
+---
+
+**Stack :**
+
+- [x] useState
+- [x] useReducer
+- [x] useContext
+- [x] CSSTransition
+- [x] TransitionGroup
+- [x] NavLink
+- [x] Route
+- [x] Switch
+- [x] BrowserRouter
